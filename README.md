@@ -2,6 +2,8 @@
 
 This project provides different methods for auditing Large Language Models (LLMs) to verify service integrity.
 
+📄 **Paper**: [Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs](https://arxiv.org/abs/2504.04715)
+
 ## Methods
 
 ### Classifier
