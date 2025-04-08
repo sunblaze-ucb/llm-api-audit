@@ -90,14 +90,12 @@ Adapted from [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@misc{cai2025gettingpayforauditing,
-      title={Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs}, 
-      author={Will Cai and Tianneng Shi and Xuandong Zhao and Dawn Song},
-      year={2025},
-      eprint={2504.04715},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.04715}, 
+@article{cai2025gettingpayforauditing,
+   title={Are You Getting What You Pay For? Auditing Model Substitution in LLM APIs}, 
+   author={Cai, Will and Shi, Tianneng and Zhao, Xuandong and Song, Dawn},
+   journal={arXiv preprint arXiv:2504.04715},
+   year={2025},
+}
 ```
 
 
