@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+packages = ["model_equality_testing"]
+package-dir = { "model_equality_testing" = "src" }
+
+[project]
+name = "model_equality_testing"
+version = "0.0.1"
+authors = [
+  { name="Irena Gao", email="irena@cs.stanford.edu" },
+]
+description = "Package to conduct model equality testing for black-box language model APIs"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "torch",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/i-gao/model-equality-testing"
+Issues = "https://github.com/i-gao/model-equality-testing/issues"

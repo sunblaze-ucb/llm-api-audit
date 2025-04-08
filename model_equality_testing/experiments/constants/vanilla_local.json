@@ -1,0 +1,14 @@
+{
+  "top_k": 0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "repetition_penalty": 1.0,
+  "num_beams": 1,
+  "do_sample": true,
+  "early_stopping": false,
+  "no_repeat_ngram_size": 0,
+  "bad_words_ids": null,
+  "force_words_ids": null,
+  "use_cache": true
+}
+
