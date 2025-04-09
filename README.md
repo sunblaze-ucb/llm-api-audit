@@ -78,7 +78,7 @@ Adapted from [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation
 
 ### Logprobs
 
-1. Collect logprobs from models. Use `pip install` to specify different versions of `transformers` and `transformers` to vary the software environment:
+1. Collect logprobs from models. Use `pip install` to specify different versions of `vllm` and `transformers` to vary the software environment:
    ```bash
    python logprobs/run_logprobs.py --model "meta-llama/Meta-Llama-3-8B-Instruct"
    ```
