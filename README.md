@@ -38,7 +38,7 @@ Adapted from [LLM Idiosyncrasies](https://github.com/locuslab/llm-idiosyncrasies
 ---
 
 ### Model Equality Testing
-Adapted from [Model Equality Testing](https://github.com/i-gao/model-equality-testing/tree/main) with mixed distribution and relevant experiments.
+Adapted from [Model Equality Testing](https://github.com/i-gao/model-equality-testing/tree/main) with randomized model substitution and relevant experiments.
 
 1. Download the necessary datasets that includes selected LLMs generation on wikipedia dataset:
    ```bash
@@ -46,12 +46,12 @@ Adapted from [Model Equality Testing](https://github.com/i-gao/model-equality-te
    python download.py
    ```
 
-2. Run model equality testing on mixed distribution with different probability of substitution:
+2. Run model equality testing on mixed distribution with different probability of substitution, parameters for the experiments can also be changed here:
    ```bash
    ./mixed.sh
    ```
 
-3. Results are saved in model-specific directories with summaries of statistical power.
+3. Results are saved in model-specific directories with summaries showing statistical power of the test.
 
 ---
 
