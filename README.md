@@ -101,5 +101,4 @@ If you find this work useful for your research, please cite our paper:
 
 ---
 
-*Note: As of April 8, 2025, we are still cleaning up the code and rerunning experiments to ensure everything works as expected. We will make necessary modifications and provide more details about the environment soon.*
-
+*Note: As of April 9, 2025, we are still rerunning experiments to ensure everything works as expected. We will make necessary changes and provide more details about the environment soon.*
