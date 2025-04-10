@@ -11,7 +11,7 @@ def run_inference(args):
    queries = [chat[0]['content'] for chat in dataset['messages'][:10]]
 
    # Setup vLLM
-   engine = LLM(
+   model = LLM(
        model=args.model,
        tensor_parallel_size=1,
        gpu_memory_utilization=0.75,
@@ -19,7 +19,7 @@ def run_inference(args):
    )
    
    # Get tokenizer for chat template
-   tokenizer = engine.get_tokenizer()
+   tokenizer = model.get_tokenizer()
 
    # Greedy sampling with logprobs
    sampling_params = SamplingParams(
@@ -39,7 +39,7 @@ def run_inference(args):
            add_generation_prompt=True
        )
        
-       output = engine.generate([formatted_query], sampling_params)[0]
+       output = model.generate([formatted_query], sampling_params)[0]
        
        # Extract token logprobs
        token_logprobs_data = []
