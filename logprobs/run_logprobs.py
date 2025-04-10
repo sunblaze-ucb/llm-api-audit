@@ -13,7 +13,7 @@ def run_inference(args):
    # Setup vLLM
    engine = LLM(
        model=args.model,
-       tensor_parallel_size=2,
+       tensor_parallel_size=1,
        gpu_memory_utilization=0.75,
        max_model_len=4096
    )
@@ -65,8 +65,7 @@ def run_inference(args):
    metadata = {
        "vllm_version": args.vllm_version,
        "model": args.model,
-       "num_queries": len(queries),
-       "sampling": "greedy"
+       "num_queries": len(queries)
    }
 
    # Prepare complete result
